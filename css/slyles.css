@@ -1,0 +1,223 @@
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --primary-color-text: #434455;
+  --secondary-color-text: #2e2f42;
+  --accent-color: #404bbf;
+  --background-color: #ffffff;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-color-text);
+  background-color: var(--background-color);
+}
+
+/*  ====== BODY ====== */
+
+.page-nav :hover,
+.page-nav :focus {
+  color: var(--accent-color);
+}
+
+.contact-mail-phone:hover,
+.contact-mail-phone:focus {
+  color: var(--accent-color);
+}
+
+.body-style {
+  font-family: var(--primary-font);
+  color: var(--primary-color-text);
+  background-color: var(--background-color);
+}
+/*  ====== /BODY ====== */
+
+/* ======= HEADER ======== */
+
+.address-background {
+  font-style: normal;
+}
+
+/*===== LOGO ===== */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-one {
+  color: var(--secondary-color-text);
+}
+.logo-two {
+  color: #f4f4fd;
+}
+
+/*=====  / LOGO ===== */
+
+.menu-link {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-text);
+}
+
+.contact-mail-phone {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-color-text);
+}
+
+/* ======= / HEADER ======== */
+
+/* ====== HERO ======*/
+
+.hero {
+  background: #2e2f42;
+}
+
+.main-title {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-color);
+}
+
+.modal-btn {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* ====== / HERO ======*/
+
+/* ======  COMPONENTS ===== */
+
+.description-title {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.description-text {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.image-description {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/* ======  /COMPONENTS ===== */
+
+/* ====== TEAM CARDS ===== */
+.team-cards {
+  background: #f4f4fd;
+}
+
+.team-cards-background {
+  background-color: var(--background-color);
+}
+
+/* ====== /TEAM CARDS ===== */
+
+/* ======= FOOTER ======== */
+
+.footer {
+  background: var(--secondary-color-text);
+}
+.footer-text {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+/* =======    / FOOTER ======== */
+
+/* ======  PORTFOLIO  ======== */
+
+.port-btn {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.port-btn:hover,
+.port-btn:focus {
+  color: #ffffff;
+  background: #404bbf;
+}
+
+/* ====== MAIN ======*/
+
+.service-card-background {
+  background: #ffffff;
+  border: 1px solid #e7e9fc;
+}
+
+/* ====== / MAIN ======*/
+
+/* ====== / PORTFOLIO  ======== */
