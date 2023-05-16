@@ -79,6 +79,9 @@ body {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
+  width: 1158px;
+  background: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .menu {
@@ -88,6 +91,7 @@ body {
 
 .page-nav {
   display: flex;
+  align-items: center;
 }
 
 .address-background {
@@ -98,6 +102,14 @@ body {
 .phone-item {
   margin-left: 40px;
   margin-right: auto;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
 }
 .menu-item:not(:last-child) {
   margin-right: 40px;
@@ -157,13 +169,13 @@ body {
 }
 
 .main-title {
-  padding-top: 188px;
-  padding-bottom: 292px;
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  padding-top: 188px;
+  padding-bottom: 188px;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -183,8 +195,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
+
   align-items: center;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
@@ -283,11 +298,18 @@ body {
 /* ======= FOOTER ======== */
 
 .page-footer-container {
-  display: flex;
   align-items: center;
 }
 
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
   background: var(--secondary-color-text);
 }
 .footer-text {
