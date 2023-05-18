@@ -287,13 +287,13 @@ body {
 /* ===== SECTION 3 ====== */
 
 .image-ajustment {
-  margin-right: 24px;
   width: calc((100% - 48px) / 3);
 }
 
 .image-container {
   display: flex;
   align-items: center;
+  gap: 24px;
 }
 
 /* ====== / SECTION 3 ====== */
@@ -309,14 +309,12 @@ body {
 
 .team-cards-background {
   background-color: var(--background-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-cards-container {
   display: flex;
   align-items: center;
-}
-
-.team-cards-title-adjustment {
 }
 
 /* ====== /TEAM CARDS ===== */
