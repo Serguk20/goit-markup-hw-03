@@ -101,10 +101,6 @@ body {
   margin-left: auto;
   margin-right: 40px;
 }
-.phone-item {
-  margin-left: 40px;
-  margin-right: auto;
-}
 
 .menu-item {
   display: flex;
@@ -118,6 +114,7 @@ body {
 }
 .menu-address {
   display: flex;
+  gap: 40px;
 }
 
 /*===== LOGO ===== */
@@ -317,6 +314,7 @@ body {
 .team-cards-container {
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 /* ====== /TEAM CARDS ===== */
@@ -360,6 +358,8 @@ body {
 .menu-portfolio {
   display: flex;
   justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .main-info {
@@ -395,7 +395,6 @@ body {
   cursor: pointer;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 72px;
 }
 
 .port-btn:hover,
